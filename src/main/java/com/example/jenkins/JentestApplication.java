@@ -15,7 +15,7 @@ public static Logger logger = LoggerFactory.getLogger(JentestApplication.class);
 	@PostConstruct
 	public void init() {
 		logger.info("Application Initiated......");
-		logger.info("Application stated..")
+		logger.info("Application stated..");
 	}
 
 	public static void main(String[] args) {
