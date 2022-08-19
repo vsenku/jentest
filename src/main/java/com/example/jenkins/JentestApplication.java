@@ -1,5 +1,7 @@
 package com.example.jenkins;
 
+import javax.annotation.PostConstruct;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -10,7 +12,7 @@ public class JentestApplication {
 	
 public static Logger logger = LoggerFactory.getLogger(JentestApplication.class);
 	
-	
+	@PostConstruct
 	public void init() {
 		logger.info("Application Initiated......");
 	}
